@@ -1,0 +1,15 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#color-center {
+    width: 16rem;
+    height: 16rem;
+    background-color: red;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
